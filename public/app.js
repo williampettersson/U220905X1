@@ -1,6 +1,7 @@
 console.log("Hello from javascript");
 
 function myFunction() {
-    var x = document.getElementById("myTextarea").value;
-    document.getElementById("demo").innerHTML = "Hej, " + x;
+    var firstname = document.getElementById("firstnameTxa").value;
+    var lastname = document.getElementById("lastnameTxa").value;
+    document.getElementById("demo").innerHTML = "Hej, " + firstname + " " + lastname;
 }
