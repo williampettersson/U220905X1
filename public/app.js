@@ -1,5 +1,6 @@
-console.log("Hello from js");
+console.log("Hello from javascript");
 
 function myFunction() {
-    document.getElementById("myTextarea").value = "Ankvägen, Anka";
+    var x = document.getElementById("myTextarea").value;
+    document.getElementById("demo").innerHTML = x;
 }
